@@ -1,0 +1,273 @@
+  /* #naf{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: bold;
+ }
+ 
+ #naf:hover{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+ }
+ #logo{
+  width: 50px;
+  border-radius: 50px;
+ }
+ #search{
+    border: 2px solid whitesmoke;
+    color: white;
+    box-shadow: none;
+    border-radius: 20px;
+ }
+ #search:hover{
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    background-color: rgba(15, 74, 235, 0.582);
+    box-shadow:none;
+ }
+#heading1{
+    font-size: 45px;
+    font-weight: bold;
+    font-style: italic;
+}
+#watchpara{
+    margin-top: 30px;
+     font-size: 15px;
+     margin-bottom: 40px;
+}
+#cardbutton{
+    background-color: rgb(0, 68, 255);
+    font-size: 15px;
+    width: 130px;
+    color: aliceblue;
+    font-weight: bold;
+    border-radius: 20px;
+
+}
+
+#cardbutton:hover{
+    border: 2px solid rgb(0, 68, 255);
+    background-color: transparent;
+    color: rgb(0, 68, 255);
+    font-size: 15px;
+
+}
+#carosul{
+     display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 200px;
+    gap: 500px;
+   width: 100%;
+}
+.main{
+     display: flex;
+    width: 100%;
+    height: 500px;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+ #deatils{
+    border-radius: 20px;
+    width: 70px;
+    background-color:  rgb(0, 68, 255);
+    color:  rgb(255, 255, 255);
+ 
+    
+ }
+ #deatils:hover{
+     border: 2px solid  rgb(0, 68, 255);
+    border-radius: 20px;
+    width: 70px;
+    background-color: transparent;
+    color:   rgb(0, 68, 255);
+}
+#heading2{
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 2%;
+    margin-top: 1%;
+    margin-left: 15%;
+    color: rgb(0, 0, 0);
+    width: 80%;
+
+ */
+
+
+
+
+ /* Navbar Styling */
+.nav-custom-link {
+    color: rgba(255, 255, 255, 0.85) !important;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-custom-link:hover {
+    color: #000000 !important;
+}
+
+#logo_img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#search_btn {
+    border: 2px solid whitesmoke;
+    color: white;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+#search_btn:hover {
+    border-color: #000000;
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* Hero Section */
+#main_heading {
+    font-size: 45px;
+    font-style: italic;
+}
+
+#watch_para {
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.hero-img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 30px;
+}
+
+/* Custom Buttons */
+.custom-btn {
+    background-color: rgb(0, 68, 255);
+    font-size: 15px;
+    width: 130px;
+    color: aliceblue;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.custom-btn:hover {
+    border: 2px solid rgb(0, 68, 255);
+    background-color: transparent;
+    color: rgb(0, 68, 255);
+}
+
+.detail-btn {
+    border-radius: 20px;
+    width: 80px;
+    background-color: rgb(0, 68, 255);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.detail-btn:hover {
+    border: 2px solid rgb(0, 68, 255);
+    background-color: transparent;
+    color: rgb(0, 68, 255);
+}
+
+/* Cards & Image Grids */
+.custom-card {
+    border-radius: 20px !important;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.custom-card:hover {
+    transform: translateY(-5px);
+}
+
+.brand-card-img {
+    width: 70%;
+    height: 180px;
+    object-fit: contain;
+    border-radius: 20px;
+}
+
+/* Horizontal Scroll Gallery Fixing */
+.image-gallery-wrapper {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 15px 5px;
+    scrollbar-width: thin;
+}
+
+.gallery-img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    flex-shrink: 0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.gallery-img:hover {
+    transform: scale(1.05);
+}
+
+ 
+.italic-heading {
+    font-style: italic;
+}
+
+ 
+footer .footer-links li {
+    margin-bottom: 8px;
+}
+footer .footer-links{
+    color:#0d6efd !important;
+}
+
+
+
+footer .footer-links a:hover {
+    color: #0d6efd !important;
+}
+
+.social-icon {
+    width: 35px;
+    height: 35px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+
+
+     background-color:  #ffffff !important;
+    color:  #0d6efd !important;
+    border: 2px solid  #0d6efd !important;
+}
+
+.social-icon:hover {
+    background-color:    #0d6efd !important;
+    color:  white !important;
+    border: 2px solid  #0d6efd !important;
+}  
+
+
+#pre{
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+} 
+#footer{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(65, 63, 63) !important;
+}
