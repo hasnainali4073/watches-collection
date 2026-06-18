@@ -271,11 +271,182 @@ footer .footer-links a:hover {
     font-size: 20px;
     font-weight: bold;
     color: rgb(65, 63, 63) !important;
-}
- contact{
-    color: rgb(255, 255, 255);
-    font-size: 16px;
-    font-weight: bold;
-    text-align: center;
+} 
+
+
+
+
+
+
+
+
+.contact-section {
+    display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
 }
+
+/* Left Side Layout */
+.contact-details {
+    flex: 1;
+    max-width: 450px;
+}
+
+.contact-details h2 {
+    font-size: 32px;
+    color: #222;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.contact-details p {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.info-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 25px;
+}
+
+.info-list li {
+    font-size: 14.5px;
+    color: #444;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 15px;
+}
+
+/* Bullets styling */
+.info-list li::before {
+    content: "•";
+    color: #666;
+    font-weight: bold;
+    font-size: 18px;
+    position: absolute;
+    left: 0;
+    top: -2px;
+}
+
+.info-list strong {
+    color: #222;
+    display: block;
+    margin-bottom: 2px;
+}
+
+.reply-time {
+    font-style: italic;
+    font-size: 13.5px !important;
+    color: #777 !important;
+}
+
+/* Right Side Layout (White & Blur Card) */
+.glass-contact-card {
+    flex: 1;
+    max-width: 450px;
+    padding: 40px 30px;
+    background: rgba(255, 255, 255, 0.45); /* Soft translucent white */
+    backdrop-filter: blur(15px);            /* The blur effect */
+    -webkit-backdrop-filter: blur(15px);    /* Safari support */
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.05);
+}
+
+.glass-contact-card h2 {
+    color: #333;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.glass-contact-card p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+/* Form Fields */
+.input-field {
+    margin-bottom: 20px;
+}
+
+.input-field label {
+    display: block;
+    font-size: 13px;
+    color: #555;
+    margin-bottom: 6px;
+    font-weight: 500;
+}
+
+.input-field input, 
+.input-field textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    color: #333;
+    outline: none;
+    transition: all 0.2s ease;
+}
+
+/* Subtle focus state */
+.input-field input:focus, 
+.input-field textarea:focus {
+    border-color: rgba(0, 0, 0, 0.2);
+    background: rgba(255, 255, 255, 0.95);
+}
+
+.input-field textarea {
+    resize: none;
+    height: 110px;
+}
+
+/* Minimalist Button */
+.send-btn {
+    width: 100%;
+    padding: 13px;
+    background: #ffffff;
+    color: #2f00ff;
+    border: none;
+    border: 2px solid #2f00ff;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.send-btn:hover {
+    background: #042aff;
+    color: #fff;
+}
+
+/* Mobile Responsive Setup */
+@media (max-width: 768px) {
+    .contact-section {
+        flex-direction: column;
+        gap: 40px;
+        padding: 20px;
+    }
+    .contact-details, .glass-contact-card {
+        max-width: 100%;
+    }
+}
+
+
+
+
+
+
