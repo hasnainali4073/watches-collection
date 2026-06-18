@@ -448,5 +448,19 @@ footer .footer-links a:hover {
 
 
 
-
-
+#buy-btn{
+    font-size: 20x;
+    width: 10%;
+    height: 40px;
+    font-weight: bold;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+#details-btn{
+    font-size: 20x;
+    width: 10%;
+    height: 40px;
+    font-weight: bold;
+    margin-left: 80%;
+    margin-top: 2%;
+}
